@@ -61,6 +61,17 @@ public class EstupidoController
 		String colorInput = readKeyboardInput.nextLine();
 		System.out.println("You said " + colorInput + ". I like that color too.");
 		
-		System.out.println("Goodbye");
+		System.out.println("Do you think Duncan is cool?");
+		String coolInput = readKeyboardInput.nextLine();
+		if(coolInput.equalsIgnoreCase("Yes"))
+			{
+				System.out.println("You seem to be very well informed.");
+			}
+		if(coolInput.equalsIgnoreCase("No"))
+			{
+				System.out.println("You are lame and a meanie.");
+			}
+		
+		System.out.println("Goodbye.");
 	}
 }
