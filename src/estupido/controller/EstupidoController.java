@@ -67,10 +67,10 @@ public class EstupidoController
 			{
 				System.out.println("You seem to be very well informed.");
 			}
-		if(coolInput.equalsIgnoreCase("No"))
-			{
-				System.out.println("You are lame and a meanie.");
-			}
+		else
+		{
+			System.out.println("You are mean");
+		}
 		
 		System.out.println("Goodbye.");
 	}
